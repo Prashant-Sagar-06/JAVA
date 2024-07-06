@@ -5,10 +5,10 @@ public class Even_Number_Sum {
         System.out.println("Enter the number: ");   
         int num = sc.nextInt();
         int i = 0;
-        int sum = 0; // Initialize the variable sum to store the sum of even numbers
+        int sum = 0; 
         while (i <= num) {
             if (i % 2 == 0) {
-                sum += i; // Add the even number to the sum
+                sum += i; 
             }
             i++;
         }
