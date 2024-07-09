@@ -30,7 +30,7 @@ public class Construct_Cylinder {
 
     public static void main(String[] args) {
         Cylinder cylinder = new Cylinder(67, 73);
-        System.out.println(cylinder.getRadius());
-        System.out.println(cylinder.getHeight());
+        System.out.println("The radius of Cylinder is : " + cylinder.getRadius());
+        System.out.println("The radius of Cylinder is : " + cylinder.getHeight());
     }
 }
