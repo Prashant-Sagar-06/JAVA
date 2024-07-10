@@ -1,6 +1,6 @@
 package OOPs;
 
-class Cylinder {
+class newCylinder {
     private int radius ;
     private int height ;
     private double volume ;
@@ -38,7 +38,7 @@ class Cylinder {
 
 public class CylinderMeasurement {
     public static void main(String[] args) {
-        Cylinder shape = new Cylinder();
+        newCylinder shape = new newCylinder();
         shape.setHeight(90);
         shape.setRadius(10);
         shape.setVolume(3.14 * shape.getRadius() * shape.getRadius() * shape.getHeight());
