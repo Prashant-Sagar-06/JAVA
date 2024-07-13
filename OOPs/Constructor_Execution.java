@@ -17,6 +17,6 @@ class derived2 extends derived1{
 }
 public class Constructor_Execution {
     public static void main(String[] args) {
-        derived2 obj = new derived2();
+        new derived2();
     }
 }
