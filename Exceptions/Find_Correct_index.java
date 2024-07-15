@@ -6,9 +6,14 @@ class MaxTriesExceededException extends Exception {
     }
 }
 
+class customException extends Exception {
+    public customException(String message) {
+        super(message);
+    }
+}
 
 public class Find_Correct_index {
-    public static void main(String[] args) throws MaxTriesExceededException {
+    public static void main(String[] args) throws MaxTriesExceededException ,customException{
         int[] numbers = {1, 2, 3, 4, 5};
         int maxTries = 5;
         int tryCount = 0;
@@ -27,8 +32,7 @@ public class Find_Correct_index {
         if (index >= 0 && index < numbers.length) {
             System.out.println("The number at index " + index + " is: " + numbers[index]);
         } else {
-            throw new MaxTriesExceededException("Max tries exceeded or invalid index entered.");
+            throw new customException("Bhai nikal boht hua");
         }
     }
 }
-
